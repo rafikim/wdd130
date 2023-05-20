@@ -1,0 +1,11 @@
+.top-img {
+    width: 100%;
+}
+.card-img {
+    width: 15%;
+    border-radius: 50%;
+    margin: auto 0;
+}
+div {
+    background-color: rgb(106, 105, 106);
+}
