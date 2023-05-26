@@ -1,0 +1,10 @@
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.column_2 {
+    background-color: gray;
+}
+.top {
+    font-size: 200px;
+}
