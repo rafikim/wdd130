@@ -196,7 +196,8 @@ nav {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
-}@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -236,4 +237,122 @@ nav {
     footer {
         margin-top: 25px;
     }
+}
+/* Start of the blog page.*/
+#river_blog_top-img {
+    width: 100%;
+}
+.blog_home-title {
+    color: white;
+    font-family: "Fredericka the Great", Papyrus, Rockwell;
+    font-size: 2em;
+    margin-top: 10px; 
+}
+#blog_hero-msg h1 {
+    text-align: center;
+}
+#blog_hero-msg h4 {
+    text-align: center;
+    color: white;
+}
+#blog_hero-msg h2 {
+    text-align: center;
+    color: #c35736;
+    margin-top: 100px;
+}
+.blog_book {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.blog_button-box {
+    text-align: center;
+    color: #5e4956;
+}
+.blog_book:hover {
+    background-color: #5e4956;
+    color: white;
+}
+#blog_hero-msg p {
+    font-size: .8em;
+}
+.blog_summer_booking {
+    background-color: #c35736;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 3/6;
+    grid-row: 2/3;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.blog_summer_booking h2 {
+    text-align: center;
+    color: white;
+    font-family: "Fredericka the Great", Papyrus, Rockwell
+}
+.blog_summer_booking p {
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+}
+.highlights-title {
+    font-family: "Fredericka the Great", Papyrus, Rockwell;
+    grid-column: 1/3;
+    padding-top: 50px;
+}
+#highlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#highlights p {
+    text-align: left;
+    grid-column: 1/3;
+    padding-right: 25px;
+}
+.blog_highlights-img {
+    grid-column: 3/4;
+    margin-top: -50px;    
+}
+#encounters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.encounters-title {
+    font-family: "Fredericka the Great", Papyrus, Rockwell;
+    grid-column: 1/3;
+    padding-top: 50px;
+}
+#encounters p {
+    text-align: left;
+    grid-column: 1/3;
+    padding-right: 25px;
+}
+#scorpions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; 
+}
+#scorpions p {
+    text-align: left;
+    grid-column: 1/3;
+}
+.scorpion-img {
+    grid-column: 3/4;
+    margin: 0 auto;
+    grid-row: 1/3;
+    padding-top: 80px;
+}
+#bighorn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#bighorn p {
+    text-align: left;
+    grid-column: 1/3;
+}
+.bighorn-img {
+    padding-left: 50px;
+    height: 75%;
 }
