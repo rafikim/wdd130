@@ -125,3 +125,68 @@ footer a:hover {
     color: black;
     text-decoration: underline;
 }
+/* start of import_dates.html page */
+#hero_dates-img {
+    width: 100%;
+    margin-top: -30px;
+}
+.band_camp-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.title_band_camp-msg {
+    text-align: center;
+    grid-column: 5/7;
+    color: white;
+    font-family: "Source Serif Pro",Helvetica, sans-serif ;
+}
+.band_camp-img {
+    grid-column: 3/9;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    margin-top: -100px;
+}
+.band_camp_info {
+    grid-column: 2/10;
+}
+.football_games-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.title_football_games-msg {
+    text-align: center;
+    grid-column: 5/7;
+    color: white;
+    font-family: "Source Serif Pro",Helvetica, sans-serif ;
+}
+.football_games-img {
+    grid-column: 3/9;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    margin-top: -100px;
+}
+.football_game_info {
+    grid-column: 2/10;
+}
+.competitions-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.title_competition-msg {
+    text-align: center;
+    grid-column: 5/7;
+    color: white;
+    font-family: "Source Serif Pro",Helvetica, sans-serif ;
+}
+.competition-img {
+    grid-column: 3/9;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    margin-top: -100px;
+}
+.competition_info {
+    grid-column: 2/10;
+}
