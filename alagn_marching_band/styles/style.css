@@ -190,3 +190,69 @@ footer a:hover {
 .competition_info {
     grid-column: 2/10;
 }
+/* start of import_dates.html page */
+.volunteer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.title_volunteer-msg {
+    text-align: center;
+    grid-column: 5/7;
+    font-family: "Source Serif Pro",Helvetica, sans-serif;
+}
+.volunteer_info {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+}
+.positions {
+    text-align: center;
+    grid-column: 5/7;
+    font-family: "Source Serif Pro",Helvetica, sans-serif;
+}
+.sponsorship-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.title_sponsorship-msg {
+    text-align: center;
+    grid-column: 5/7;
+    font-family: "Source Serif Pro",Helvetica, sans-serif;
+}
+.sponsorship_info {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+}
+.included-msg {
+    text-align: center;
+    grid-column: 5/7;
+    font-family: "Source Serif Pro",Helvetica, sans-serif;
+}
+.help-msg {
+    text-align: center;
+    grid-column: 5/7;
+    font-family: "Source Serif Pro",Helvetica, sans-serif; 
+}
+.visual-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.walk_ons-img {
+    width: 400px;
+    grid-column: 2/4;
+    height: 65%;
+    margin-top: 100px;
+}
+.fenix-img {
+    width: 400px;
+    grid-column: 5/7;
+    height: 65%;
+    margin-top: 100px;
+}
+.homecare-img {
+    width: 400px;
+    grid-column: 8/10;
+    margin-top: 100px;
+    height: 65%;
+}
